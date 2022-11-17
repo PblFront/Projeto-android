@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    background-color: rgb(192, 192, 192); 
+}
+header{
+    background-image: linear-gradient(to top, rgb(3, 41, 3), rgb(96, 175, 96));
+    padding-bottom: 7px;
+    width: 100%;
+}
+header > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 3px 3px 5px  rgb(3, 41, 3);
+}
+header > p{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+nav.menu{
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+.menu > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    transition-duration: 0.3s;
+   
+}
+.menu > a:hover{
+      
+    background-color: rgba(99, 236, 99, 0.842); 
+    color: rgb(12, 73, 12);
+    
+}
+main{
+    background-color: white;
+    padding-bottom: 20px;
+    max-width: 1500px;
+    min-width: 300px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 40px 0px rgba(0, 0, 0, 0.418);
+}
+.conteudo1 > h1{
+    font-family: idroid;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(12, 73, 12);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.conteudo2 > h2{
+    font-family: idroid;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(60, 190, 60, 0.842), rgba(174, 248, 174, 0.575), transparent);
+    color: rgb(12, 73, 12);
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+.conteudo2 > p > a{ 
+    background-color: rgba(60, 190, 60, 0.842);
+    border-radius: 3px;
+    padding: 2px;
+    color: rgb(12, 73, 12);
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+.robo > img{ 
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.conteudo3 > h2{
+    font-family: idroid;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(60, 190, 60, 0.842), rgba(174, 248, 174, 0.575), transparent);
+    color: rgb(12, 73, 12);
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+.conteudo3 > p{
+    margin-bottom: 30px;
+}
+.conteudo3 > p > a{
+    background-color: rgba(60, 190, 60, 0.842);
+    border-radius: 3px;
+    padding: 2px;
+    color: rgb(12, 73, 12);
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.irina > img{
+    width: 93%;
+    margin-bottom: 30px;
+}
+.robohumano > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+}
+.robohumano > article > p{
+    margin-bottom: 30px;
+}
+.video{
+    background-color: rgb(12, 73, 12);
+    padding-top: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.topside > h3{
+    text-align: left;
+    background-color: rgb(12, 73, 12);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+.conteudo4 {
+    background-color: rgba(123, 214, 123, 0.842);
+    margin: 30px 20px 25px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.conteudo4 > p{
+        margin-top: 15px;
+        padding-bottom: 20px;
+        margin-left: 25px;
+        font-size: 20px;
+}
+.topside > p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.botside > p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    
+}
+.botside > aside > p > a{
+    text-decoration:  none;
+    
+}
+footer {
+    background-color: rgb(12, 73, 12);
+    padding: 12px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+ul{
+    list-style-type: '✔';
+    list-style-position: inside;
+    columns: 2;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 300px;
+    
+}
+.span{
+    color: rgb(12, 73, 12);
+    font-weight: bold;
+}
+@media (max-width: 900px){
+    ul {
+        margin-left: 25px;
+        columns: 2;
+        font-size: 18px;
+    }
+}
