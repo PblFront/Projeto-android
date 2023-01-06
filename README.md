@@ -1,4 +1,4 @@
-# Proejto-android
+# Projeto-android
  Este foi o meu primeiro projeto feito com Html5 e Css3.
  Acesse aqui: https://proejto-android.vercel.app/
 
